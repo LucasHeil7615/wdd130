@@ -1,0 +1,67 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@700&family=Roboto&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@700&family=Roboto:wght@400;500&display=swap');
+
+
+
+body {
+
+    background-color: #fca6c9;
+    text-align: center;
+    font-size: 2em;
+    margin-left: 180px;
+    margin-right: 180px;
+    }
+    .bananas{
+        color:white;
+        text-decoration: none;
+        font-family: 'Roboto';
+        font-size: smaller;
+    }
+    .bananas:hover{
+    color:black
+
+    }
+    .pres{
+        color: white;
+        font-size: 0.6em;
+        font-family: 'Roboto';
+        font-kerning: normal;
+    }
+    .education{
+    font-size: 0.5em;
+    }
+    .Nelson{
+        width: 20%;
+        height: 25%;
+    }
+    ol{
+    text-align: left;
+    list-style-type: decimal;
+    font-family: 'Roboto';
+    font-size: 0.7em;
+    
+    
+    }
+    .moveplease {
+        padding-left: 32%;
+    }
+  
+    footer{
+    text-align: center;
+    }
+   
+    blockquote {
+    text-align: center;
+    color:white;
+   
+    }
+    .savior{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .foot{
+        font-family: 'Roboto';
+        font-size: .5em;
+    }
