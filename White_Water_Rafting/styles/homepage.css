@@ -1,0 +1,70 @@
+.content{
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: rgba(44, 76, 101, 0.922);
+}
+.head{
+    background-color: rgb(168, 27, 8);
+}
+.logo{
+    text-align: center;
+}
+.nav{
+    text-decoration: none;
+    text-align: center;
+    color: yellow;
+    font-size: large;
+}
+.nav:hover{
+    background-color: paleturquoise;
+    color: blue;
+}
+.hero-msg{
+    text-align: center;
+    color:powderblue
+}
+h1{
+    background-color: rgb(94,104,117);
+}
+h4{
+    background-color: rgb(94, 104, 117);
+}
+.book, .join{
+    background-color: aquamarine;
+    color: darkgreen;
+}
+.book:hover, .join:hover{
+background-color: aqua;
+color: rgb(0, 0, 100);
+}
+
+.hero-box{
+    text-align: center;
+}
+.button-box{
+    text-align: center;
+    
+}
+.main{
+    text-align: center;
+}
+.section{
+    text-align: center;
+}
+.home-grid{
+    text-align: center;
+}
+.foot{
+    color: rgb(84, 214, 232);
+    text-align: center;
+    background-color: rgb(94, 104, 117);
+}
+.msg{
+    color: powderblue;
+    background-color: rgb(94, 104, 117);
+    font-size: larger;
+}
+.background{
+    height: 725px;
+    background-color: rgb(41, 122, 189);
+}
