@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(67, 132, 132);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2em;
+}
+.monkeyes{
+    background-color: aquamarine;
+}
+.banana{
+    background-color: aliceblue;
+}
+.DK{
+    background-color: rgb(13, 77, 79);
+}
+.top{
+    grid-column: 2/-1;
+    background-color: blueviolet;
+}
+.stuff{
+    grid-column: 2/4;
+    background-color: brown;
+}
+.logo{
+    grid-column: 1/1;
+    background-color: bisque;
+}
+.foot{
+    grid-column: 1/-1;
+    background-color: aliceblue;
+}
