@@ -8,11 +8,12 @@
 }
 .logo{
     text-align: center;
+    width: 80px;
 }
 .nav{
-    text-decoration: none;
-    text-align: center;
     color: yellow;
+  text-decoration: none;
+    text-align: center;
     font-size: large;
 }
 .nav:hover{
@@ -32,6 +33,7 @@ h4{
 .book, .join{
     background-color: aquamarine;
     color: darkgreen;
+    text-decoration: none;
 }
 .book:hover, .join:hover{
 background-color: aqua;
@@ -45,12 +47,6 @@ color: rgb(0, 0, 100);
     text-align: center;
     
 }
-.main{
-    text-align: center;
-}
-.section{
-    text-align: center;
-}
 .home-grid{
     text-align: center;
 }
@@ -58,6 +54,7 @@ color: rgb(0, 0, 100);
     color: rgb(84, 214, 232);
     text-align: center;
     background-color: rgb(94, 104, 117);
+    text-decoration: none;
 }
 .msg{
     color: powderblue;
@@ -67,4 +64,7 @@ color: rgb(0, 0, 100);
 .background{
     height: 725px;
     background-color: rgb(41, 122, 189);
+}
+.icon{
+    width: 80px
 }
