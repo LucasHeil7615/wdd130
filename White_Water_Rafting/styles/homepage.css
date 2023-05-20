@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Ysabeau&display=swap');
 .content{
     max-width: 1600px;
     margin: 0 auto;
     background-color: rgba(44, 76, 101, 0.922);
+    font-family: 'Lobster', 'Ysabeau' , 'sans-serif';
+    padding: 0;
+    margin: 0;
 }
 .head{
     background-color: rgb(168, 27, 8);
@@ -10,11 +14,18 @@
     text-align: center;
     width: 80px;
 }
+.home-title{
+    font-size: 2em;
+    margin: 0;
+    background-color: rgb(94,104,117);
+    margin-top: 10px;
+}
 .nav{
     color: yellow;
   text-decoration: none;
     text-align: center;
     font-size: large;
+    padding: 35px;
 }
 .nav:hover{
     background-color: paleturquoise;
@@ -24,9 +35,6 @@
     text-align: center;
     color:powderblue
 }
-h1{
-    background-color: rgb(94,104,117);
-}
 h4{
     background-color: rgb(94, 104, 117);
 }
@@ -34,6 +42,10 @@ h4{
     background-color: aquamarine;
     color: darkgreen;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius:  5px;
 }
 .book:hover, .join:hover{
 background-color: aqua;
@@ -49,6 +61,7 @@ color: rgb(0, 0, 100);
 }
 .home-grid{
     text-align: center;
+    border: 10px solid rgb(72, 118, 156)
 }
 .foot{
     color: rgb(84, 214, 232);
@@ -56,6 +69,8 @@ color: rgb(0, 0, 100);
     background-color: rgb(94, 104, 117);
     text-decoration: none;
     font-size: 1.2em;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer p a:hover{
     text-decoration: underline;
@@ -63,12 +78,30 @@ footer p a:hover{
 .msg{
     color: powderblue;
     background-color: rgb(94, 104, 117);
-    font-size: larger;
+    font-size: 2em;
+    line-height: 1.5em;
+    padding: 35px;
+}
+.msg p{
+    padding-bottom: 15px;
 }
 .background{
     height: 725px;
     background-color: rgb(41, 122, 189);
 }
+foooter .social img{
+    padding-top: 15px;
+}
 .icon{
-    width: 80px
+    width: 80px;
+    padding-top: 35px;
+}
+#logo_link{
+padding: 5px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.main .section .img {
+    box-sizing: border-box;
 }
