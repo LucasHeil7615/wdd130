@@ -1,0 +1,67 @@
+main{
+    background-color: rgb(240, 240, 244);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+.x{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    font-weight: bolder;
+}
+.moon{
+    grid-column: 1/2;
+    grid-row: 1/7;
+    width: 350px;
+}
+.head{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 100%
+    font-weight: bolder;
+}
+.text{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    width: 100%;
+}
+.textA{
+    grid-column: 2/3;
+    grid-row:3/4;
+    width: 200px;
+    height:20px;
+}
+.textB{
+    grid-column:2/3;
+    grid-row:4/5;
+    width: 200px;
+    height:50px;
+}
+.check{
+    grid-column: 2/3;
+    grid-row: 5/6;
+    width:20px;
+    height:20px
+}
+.subscribe{
+    grid-column: 2/3;
+    grid-row: 6/7;
+    height: 50px;
+    width:200px;
+    background-color: orange;
+    justify-items: center;
+    align-items: center;
+}
+.email{
+    grid-column: 2/3;
+    grid-row:3/4;
+    z-index: 1;
+}
+.name{
+    grid-column:2/3;
+    grid-row:4/5;
+}
+.opt{
+    grid-column: 2/3;
+    grid-row: 5/6;
+}
