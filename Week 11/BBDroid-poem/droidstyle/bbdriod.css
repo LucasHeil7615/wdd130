@@ -1,0 +1,73 @@
+section{
+  width: 50%;
+  border: 1px solid;
+  font-size: 1.35em;
+}
+body{
+    background-color: rgb(22, 22, 65);
+    color: aliceblue;
+}
+.block1{ 
+width: 50%;
+margin-right: auto;
+}
+h2{
+  text-align: center;
+}
+.a{
+  text-align: left;
+}
+.b{
+  text-align: center;
+}
+.c{
+  text-align: center;
+}
+.d{
+  text-align: right;
+}
+
+.block2{
+margin-right: auto;
+margin-left:auto;
+width: 50%;
+}
+.e{
+  text-align: left;
+}
+.f{
+  text-align: center;
+}
+.g{
+  text-align: right;
+}
+.h{
+  text-align: left;
+}
+.i{
+  text-align: center;
+}
+.j{
+  text-align: right;
+}
+.block3{
+margin-left: auto;
+width: 50%;
+}
+.block4{
+margin-right: auto;
+margin-left: auto;
+width: 50%;
+}
+.k{
+  text-align: right;
+}
+.l{
+  text-align: center;
+}
+.n , .m{
+  text-align: left;
+}
+.poem{
+  align-items: center;
+}
