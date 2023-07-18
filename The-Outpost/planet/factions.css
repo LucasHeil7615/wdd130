@@ -1,41 +1,171 @@
-/* Dropdown Button */
-.dropbtn {
-    background-color: #04AA6D;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-  }
-  
-  /* The container <div> - needed to position the dropdown content */
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  /* Dropdown Content (Hidden by Default) */
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  /* Links inside the dropdown */
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #ddd;}
-  
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {display: block;}
-  
-  /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Kanit:wght@300&display=swap');
+.body{
+  background-image: radial-gradient(circle, #1f5a65, #284153, #292a38, #1d171d, #000000);
+  color: #FFFFFF;
+  font-size: larger ;
+  max-width: 100%;
+  font-family: Aldrich, Kanit;
+ }
+.head {
+  display: grid;
+  grid-template-columns: 300px 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+  grid-template-rows: 100px;
+  background-color: #1f5a65;
+  gap: 10px;
+  justify-content: center;
+  align-content: center;    
+}
+.head a{
+  text-decoration: none;
+  font-size: 18px;
+  color: #62FF00;
+  background-color: #000000;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  padding-top: 20px;
+}
+.head a:hover{
+  background-color: #cd5900;
+  color:#e8be03;
+}
+.headA{
+  text-align: center;
+}
+.paraA{
+  margin: 50px;
+  text-align: center;
+}
+.U-wing{
+  height: 600px;
+  width: 800px;
+  margin-left: 340px;
+}
+.headB{
+  text-align: center;
+}
+.subheadA{
+  text-align: center;
+}
+.paraB{
+  margin: 40px;
+  text-align: center;
+}
+.defender{
+  height: 250px;
+  width:600px;
+  margin-left: 40px;
+}
+.rouge{
+  height: 250px;
+  width: 600px;
+  margin-left: 200px;
+  margin-right: 40px;
+}
+.subheadB{
+  text-align: center;
+}
+.paraC{
+  margin: 40px;
+  text-align: center;
+}
+.Hawk{
+  margin-left: 450px;
+}
+.subheadC{
+  text-align: center;
+}
+.paraD{
+  text-align: center;
+  margin: 40px;
+}
+.viper{
+  margin-left: 500px;
+}
+.headC{
+  text-align: center;
+}
+.coruscant{
+  height: 500px;
+  width: 1200px;
+  margin-left:150px;
+}
+.subheadD{
+  text-align: center;
+}
+.paraE{
+  margin: 40px;
+  text-align: center;
+}
+.Delta7{
+  height: 500px;
+  width: 600px;
+  margin-left: 40px;
+}
+.vulture{
+  height: 500px;
+  width: 600px;
+  margin-left: 220px;
+}
+.subheadE{
+  text-align: center;
+}
+.paraF{
+  text-align: center;
+  margin: 40px;
+}
+.headD{
+  text-align: center;
+}
+.counter{
+  height: 600px;
+  width: 1200px;
+  margin-left: 150px;
+}
+.subheadF{
+  text-align: center;
+}
+.paraG{
+  margin: 40px;
+  text-align: center;
+}
+.Poe{
+  height: 300px;
+  margin-left: 400px;
+}
+.SFtie{
+  height: 400px;
+  margin-left: 470px;
+  margin-top: 40px;
+}
+.subheadG{
+  text-align: center;
+}
+.paraH{
+  margin: 40px;
+  text-align: center;
+}
+
+.foot{
+  background-color: #1f5a65;
+  font-size: 1.2em;
+  padding: 25px 50px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.foot, a{
+  text-decoration: none;
+  color: #62FF00;
+  border-radius: 7px;
+  padding: 5px;
+  background-color: #000;
+}
+footer p a:hover{
+  text-decoration: underline;
+  background-color: #cd5900;
+  color: #e8be03;
+  border-radius: 7px;
+}

@@ -1,6 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Kanit:wght@300&display=swap');
 
 .body{
 background-image: radial-gradient(circle, #1f5a65, #284153, #292a38, #1d171d, #000000);
 color: #FFFFFF;
 font-size: larger ;
+max-width: 100%;
+font-family: Aldrich, Kanit;
+}
+.head {
+    display: grid;
+    grid-template-columns: 300px 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 100px;
+    background-color: #1f5a65;
+    gap: 10px;
+    justify-content: center;
+    align-content: center;
+    
+}
+.head a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #62FF00;
+    background-color: #000000;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding-top: 20px;
+}
+.head a:hover{
+    background-color: #cd5900;
+    color:#e8be03;
+}
+.hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 500px;
+    justify-items: center;
+}
+.Hero-img{
+width: 100%;
+height: 500px;
+border-radius: 25px;
+grid-column: 2/5;
+grid-row: 1/3;
+margin-top: 40px;
+}
+.welcome{
+    grid-column: 2/4;
+    grid-row: 1/2;
+    border-radius: 25px;
+    text-align: left;
+    height: 75px;
+    width: 500px;
+    margin-top: 140px;
+    margin-left: 150px;
+    color: #FFFFFF;
+}
+.sub{
+    grid-column: 2/4;
+    grid-row: 1/2;
+    border-radius: 25px;
+    text-align: left;
+    height: 75px;
+    width: 500px;
+    margin-top: 165px;
+    margin-left: 200px;
+    color: #FFFFFF;
+}
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 400px 500px 500px;
+}
+.wells{
+grid-column: 2/6;
+grid-row:1/2;
+background-color: #1f5a65;
+margin-top: 80px;
+margin-bottom: 80px;
+border-radius: 25px;
+border-color: #000000;
+border: 50px;
+}
+.subheadA{
+    margin-left: 40px;
+}
+.para{
+    margin: 20px
+}
+.tieinterceptor{
+    grid-column: 2/6;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+.intel{
+    grid-column: 2/6;
+    grid-row: 3/4;
+    background-color: #1f5a65;
+    margin-top: 80px;
+    margin-bottom: 180px;
+    border-radius: 25px;
+}
+.subheadB{
+ margin-left: 40px;   
+}
+.paraB{
+    margin: 25px;
+}
+.foot{
+    background-color: #1f5a65;
+    font-size: 1.2em;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.foot, a{
+    text-decoration: none;
+    color: #62FF00;
+    border-radius: 7px;
+    padding: 5px;
+    background-color: #000;
+}
+footer p a:hover{
+    text-decoration: underline;
+    background-color: #cd5900;
+    color: #e8be03;
+    border-radius: 7px;
 }
